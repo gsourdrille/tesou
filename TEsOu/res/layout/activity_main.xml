@@ -11,7 +11,7 @@
     tools:context=".MainActivity" >
 
   <LinearLayout
-        android:id="@+id/tab_bar"
+        android:id="@+id/header"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:orientation="horizontal" >
@@ -27,9 +27,64 @@
   
 
   <LinearLayout
-        android:id="@+id/butons_bar"
+        android:id="@+id/footer"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal" >
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp" >
+        
+        
+      <RelativeLayout
+        android:id="@+id/buttonsms"
+        android:layout_width="0dp"
+        android:layout_height="70dp" 
+        android:layout_weight=".25">
+        
+        <ImageButton
+            android:background="@drawable/sms"
+            android:id="@+id/smsButton"
+            android:layout_centerInParent="true"
+            android:layout_height="65dp"
+             android:layout_width="65dp"/>
+       </RelativeLayout>
+       
+       <RelativeLayout
+        android:id="@+id/buttonmail"
+        android:layout_width="0dp"
+        android:layout_height="70dp" 
+        android:layout_weight=".25">
+	         <ImageButton
+	            android:background="@drawable/mail"
+	            android:id="@+id/mailButton"
+	            android:layout_centerInParent="true"
+	            android:layout_height="65dp"
+	             android:layout_width="65dp"/>
+         </RelativeLayout>
+      
+       <RelativeLayout
+        android:id="@+id/buttonmap"
+        android:layout_width="0dp"
+        android:layout_height="70dp" 
+        android:layout_weight=".25">
+	         <ImageButton
+	            android:background="@drawable/map"
+	            android:id="@+id/mapButton"
+	            android:layout_centerInParent="true"
+	            android:layout_height="65dp"
+	             android:layout_width="65dp"/>
+        </RelativeLayout>
+      
+       <RelativeLayout
+        android:id="@+id/buttonar"
+        android:layout_width="0dp"
+        android:layout_height="70dp" 
+        android:layout_weight=".25">
+	         <ImageButton
+	            android:background="@drawable/camera"
+	            android:id="@+id/arButton"
+	            android:layout_centerInParent="true"
+	            android:layout_height="65dp"
+	             android:layout_width="65dp"/>
+         </RelativeLayout>
   </LinearLayout>
 </LinearLayout>
