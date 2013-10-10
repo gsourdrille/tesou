@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="16" />
+        android:minSdkVersion="12"
+        android:targetSdkVersion="15" />
 	<permission
         android:name="fr.edenyorke.tesou.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
@@ -39,7 +39,7 @@
         </activity>
          <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBX9YFCom6Nv2b-Hu4322hO9P2Dkq09FHo" />
+            android:value="AIzaSyDecWIhm9Skj4_dVg1G7PEknCYKaLBV1Co" />
     </application>
       
 
